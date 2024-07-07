@@ -74,7 +74,7 @@ A glancing hit wounds a crew member on a 4+. When a crew member is wounded, rand
 
 A penetrating hit wounds a random crew member, and reduces the target's hull points by 1. If the target's hull points are reduced to 0, the tank is disabled -- it cannot perform any actions, and remains on the table.
 
-A hit from an HE round can start a **Fire**. Roll a die. On a 5+, the tank is on fire. The tank's crew can use an action to extinguish the fire. If the fire is not extinguished, the tank loses 1 hull point at the end of each turn until the fire is extinguised.
+A hit from an HE round can start a **Fire**. Roll a die. On a 5+, the tank is on fire. The tank's crew can use an action to extinguish the fire. If the fire is not extinguished, the tank loses 1 hull point at the end of each turn until the fire is extinguished.
 
 At the end of every turn a disabled tank is on the table (including the turn it was disabled), roll a die. On a 4+, the ammunition cooks off. The tank is destroyed, and any units within 2 spaces of the tank are hit with an HE round with a strength of 4. The vehicle is replaced with a rubble terrain piece. If the tank's last hull point was lost to **Fire**, the ammunition cooks off immediately.
 
