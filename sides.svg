@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <path d="M 184.777 116.999 L 272.816 167.829 L 272.816 269.487 L 184.777 320.317 L 96.738 269.488 L 96.738 167.828 Z" style="stroke: rgb(0, 0, 0); fill: none; transform-origin: 184.777px 218.658px;" transform="matrix(0, 1, -1, 0, 55.80110168457, 48.324974060059)" bx:shape="n-gon 184.777 218.658 101.659 101.659 6 0 1@19ed45ac"/>
+  <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 28px;" x="205.559" y="172.444">Front</text>
+  <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 28px;" x="106.769" y="225.872">Side</text>
+  <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 28px;" x="315.225" y="221.747">Side</text>
+  <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 28px;" x="105.72" y="324.269">Side</text>
+  <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 28px;" x="320.061" y="325.929">Side</text>
+  <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 28px;" x="207.37" y="379.976">Rear</text>
+  <rect x="202.739" y="204.24" width="79.179" height="130.186" style="fill: rgb(216, 216, 216); stroke: rgb(80, 80, 80);"/>
+  <ellipse style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" cx="243.359" cy="261.942" rx="23.391" ry="23.391"/>
+  <rect x="237.954" y="196.681" width="9.845" height="45.322" style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);"/>
+</svg>
