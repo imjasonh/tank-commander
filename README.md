@@ -29,9 +29,9 @@ Before the game begins, players can upgrade their tanks, spending up to 10 upgra
 - **High-Explosive (HE) Rounds**: Allows HE rounds to be loaded. Costs 1 upgrade point.
 - **Anti-Infantry Weapons**: Allows the tank to fire at infantry units at a range of 2 spaces. Costs 1 upgrade point.
 - **Smoke Launcher**: Allows the tank to deploy smoke, blocking line of sight through one space within a range of 2 spaces. Costs 1 upgrade point.
-- **Lieutenant Commander**: Adds a Lieutenant Commander to the crew. Costs 1 upgrade point.
-- **Air Support**: Allows the tank to call in an air strike during the battle. Costs 2 upgrade points.
-- **Anti-Tank Mines**: Allows the tank to deploy anti-tank mines. Costs 1 upgrade point per space, up to 3 maximum.
+- (Advanced) **Lieutenant Commander**: Adds a Lieutenant Commander to the crew. Costs 1 upgrade point.
+- (Advanced) **Air Support**: Allows the tank to call in an air strike during the battle. Costs 2 upgrade points.
+- (Advanced) **Anti-Tank Mines**: Allows the tank to deploy anti-tank mines. Costs 1 upgrade point per space, up to 3 maximum.
 
 For example, a tank could spend its upgrade points on the following upgrades:
 - Armor: Front 8, Side 8, Rear 6 (4 points)
@@ -44,7 +44,7 @@ The tank has a crew of 4 members:
 - The **Gunner** fires the turret gun and any other weapons
 - The **Loader** loads the main gun
 - The **Driver** moves the tank
-- (Optional): The **Lieutenant Commander** can take over any role if the crew member is killed.
+- (Advanced): The **Lieutenant Commander** can take over any role if the crew member is killed.
 
 ## Playing the Game
 
@@ -60,7 +60,7 @@ On their turn, the player can perform actions by spending action points:
 - **Fire Anti-Infantry Weapon**: Fire the anti-infantry weapon at a target within range.
 - **Deploy Smoke**: Deploy smoke, blocking line of sight through a space until the end of the battle.
 - **Extinguish Fire**: Extinguish a fire on the tank.
-- **Call an Air Strike**: Call in an air strike. This can only be done once per battle.
+- (Advanced) **Call an Air Strike**: Call in an air strike. This can only be done once per battle.
 
 ### Firing the Main Turret Gun
 
@@ -90,12 +90,6 @@ If the Driver is wounded, the tank's movement is reduced by 1. If the driver is 
 
 If a Lieutenant Commander is replacing a killed crew member, they always performs the job of the crew member it is replacing as if that crew member was wounded, until the Lieutenant Commander is killed.
 
-### Air Strike
-
-Mark a space anywhere on the board. In the next turn, the player must roll a 6+ for the air strike to hit. On the following turn, it's a 5+, and then 4+, and so on. An air strike is never called on a roll of a 1.
-
-When an air strike is carried out, the marked space is hit with an AT round with a strength of 6. Roll a die to determine the direction of the blast (1 is north, 2 is northeast, and so on). Then roll a die to determine the distance of the blast (1 is 1 space, 2 is 2 spaces, and so on). Each of those spaces are also hit with an AT round with a strength of 6.
-
 ### Terrain
 
 - **Open Terrain**: No effect on movement or line of sight. This can be a road, or grass. Most of the board is open terrain.
@@ -104,9 +98,15 @@ When an air strike is carried out, the marked space is hit with an AT round with
 - **Hill**: When a tank is immediately behind a hill space, enemy accuracy is -1. When a tank is on a hill space, all hits against it are taken against the rear armor value.
 - **Forest**: When a tank is in or behind a forest space, enemy accuracy is -1.
 - **Building**: Buildings are impassable terrain. Tanks can fire rounds at buildings to turn them into rubble.
-- **Mines**: Tanks moving over mined spaces take an AT hit with a strength of 6. The mine is then removed from the board.
+- (Advanced) **Mines**: Tanks moving over mined spaces take an AT hit with a strength of 6. Roll to see if it penetrates. The mine is then removed from the board.
 
-### Other Units
+### Advanced Play
+
+#### Air Strike
+
+Mark a space anywhere on the board. In the next turn, the player must roll a 6+ for the air strike to hit. On the following turn, it's a 5+, and then 4+, and so on. An air strike is never called on a roll of a 1.
+
+When an air strike is carried out, the marked space is hit with an AT round with a strength of 6. Roll a die to determine the direction of the blast (1 is north, 2 is northeast, and so on). Then roll a die to determine the distance of the blast (1 is 1 space, 2 is 2 spaces, and so on). Each of those spaces are also hit with an AT round with a strength of 6.
 
 #### Infantry
 
@@ -130,7 +130,7 @@ Infantry can take the following actions when activated:
   - Infantry can ride on the outside of tanks. If the tank takes any hits while infantry are mounted on the outside, they are destroyed.
   - Infantry can ride inside Armored Personnel Carriers (APCs). See below.
 
-### Armored Personnel Carriers (APCs)
+#### Armored Personnel Carriers (APCs)
 
 | Armor | Movement | Accuracy | Hull Points | Actions |
 |-------|----------|----------|-------------|---------|
@@ -153,3 +153,17 @@ APCs can take the following actions when activated:
 - **Fire Anti-Infantry Weapon**: Fire the anti-infantry weapon at a target within range.
 - **Deploy Smoke**: Deploy smoke, blocking line of sight through a space until the end of the battle.
 - **Extinguish Fire**: Extinguish a fire on the tank.
+
+#### Missions
+
+Playing to destroy your enemy is only one way to play Tank Commander. Missions can be created to add objectives to the game. Some examples of missions include:
+
+- **Capture Objectives:** Use infantry to capture 1, 2 or 3 spaces on the board
+- **Breakthrough:** Move a tank to the other side of the board to win. One player is the attacker, the other is the defender.
+- **Destroy Target:** Destroy a specific target on the board. The target can be a building, a tank, or an infantry unit.
+
+#### More Questionable Ideas
+
+- **Weather:** Roll a die at the beginning of each turn. On a 1, a storm hits. All tanks have -1 accuracy, and all infantry have -1 movement.
+- **Campaign Progressions**: Players can keep track of their tanks and crew from battle to battle. Crew members can gain experience, and tanks can be upgraded with new equipment.
+- **Hover Tanks, Walkers, etc.**: Add new units to the game with different movement and armor values.
