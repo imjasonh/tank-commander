@@ -1,12 +1,17 @@
 # Tank Commander
 
-Version 0.0.1-r0
-
 ## Introduction
 
 **Tank Commander** is a simple table-top game where two players take turns to shoot at each other's tanks. The game is played on a hexagonal grid, and each player has a tank that can move and shoot in six directions. The simplest goal of the game is to destroy the opponent's units.
 
 Players take turns activating a unit, performing a number of actions with it, and then ending their turn. The battle is over when the mission is complete, or a player concedes, or after 10 turns of play.
+
+This game is still in early development. If you want to give it a try, please give feedback in the form of an issue or pull request to update or clarify rules.
+
+I've 3D printed some models for the game, based on Epic-scale Warhammer 40k Imperial Guard models:
+- Battle Tank _(TODO)_
+- [Armored Personnel Carrier](https://cults3d.com/en/3d-model/game/epic-scale-mechanized-infantry-vehicle)
+- [Infantry Squad](https://cults3d.com/en/3d-model/game/epic-scale-infantry-company)
 
 ## Building your Tank
 
@@ -16,7 +21,7 @@ The basic tank starts with the following stats:
 |-------|----------|-------------|---------|
 | 6/6/6 | 4+       | 4           | 5       |
 
-It has a main turret gun with anti-tank (AT) rounds, with a range of 5 spaces.
+It has a main turret gun with anti-tank (AT) rounds, with a range of 6 spaces.
 
 Before the game begins, players can upgrade their tanks, spending up to 10 upgrade points on the following items:
 
@@ -52,7 +57,7 @@ The tank has a crew of 4 members. Once per battle, each crew member can use a sp
   - _"Bring it down!"_: the gunner hits on 2+ for this turn
 - The **Loader** loads the main gun
   - _Quick Load_: loading costs zero actions for this turn
- 
+
 The tank may also add a fifth crew member for 1 upgrade point.
 - The **Lieutenant Commander** can take over any role if the crew member is killed.
 
@@ -65,7 +70,7 @@ On their turn, the player can perform actions by spending action points:
 - **Move**: Move the tank forward one space, max 3 spaces per turn.
 - **Turn**: Rotate to the left or right 60 degrees. The turret may turn with the tank or remain in its current direction.
 - **Rotate Turret**: Rotate the turret relative to the tank to the left or right 60 degrees.
-- **Fire**: Fire the loaded round at a target within range (6 spaces).
+- **Fire**: Fire the loaded round at a target within range.
 - **Load**: Load a round into the main gun. This is required before firing. (The gun starts the battle loaded with any available rounds)
 - **Fire Anti-Infantry Weapon**: Fire the anti-infantry weapon at a target within range.
 - **Deploy Smoke**: Deploy smoke, blocking line of sight through a space until the end of the battle.
@@ -130,7 +135,7 @@ If a Lieutenant Commander is replacing a killed crew member, they always perform
 - **Forest**: When a tank is in or behind a forest space, enemy accuracy is -1.
 - **Building**: Buildings are impassable terrain. Tanks can fire rounds at buildings to turn them into rubble.
 - (Advanced) **Hill**: When a tank is immediately behind a hill space, enemy accuracy is -1. When a tank is on a hill space, all hits against it are taken against the rear armor value.
-- (Advanced) **Mines**: Tanks moving over mined spaces take an AT hit with a strength of 6. Roll to see if it penetrates. The mine is then removed from the board.
+- (Advanced) **Mines**: Tanks moving over mined spaces take an AT hit with a strength of 6. Roll to see if it penetrates. The mined space is then removed from the board.
 
 ### Infantry
 
