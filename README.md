@@ -45,6 +45,8 @@ For example, a tank could spend its upgrade points on the following upgrades:
 - Lieutenant Commander: 1 point
 - Air Support: 2 points
 
+Tanks that are painted get an extra upgrade point. Tanks that are given a suitably epic name and have named crew members get an extra upgrade point.
+
 ### Crew
 
 The tank has a crew of 4 members. Once per battle, each crew member can use a special ability (only one per turn):
