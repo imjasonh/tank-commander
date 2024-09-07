@@ -62,29 +62,51 @@ Players roll a die to determine who goes first. The player who rolls the highest
 
 On their turn, the player can perform actions by spending action points:
 
-- **Move**: Move the tank forward one space, up to 3 spaces per turn.
-- **Turn**: Rotate to the left or right 60 degrees. This may also rotate the turret with the tank.
-- **Rotate Turret**: Rotate the turret to the left or right 60 degrees.
-- **Fire**: Fire the main gun at a target within range.
-- **Load**: Load a round into the main gun. This is required before firing. (The gun starts the battle loaded.)
+- **Move**: Move the tank forward one space, max 3 spaces per turn.
+- **Turn**: Rotate to the left or right 60 degrees. The turret may turn with the tank or remain in its current direction.
+- **Rotate Turret**: Rotate the turret relative to the tank to the left or right 60 degrees.
+- **Fire**: Fire the loaded round at a target within range (6 spaces).
+- **Load**: Load a round into the main gun. This is required before firing. (The gun starts the battle loaded with any available rounds)
 - **Fire Anti-Infantry Weapon**: Fire the anti-infantry weapon at a target within range.
 - **Deploy Smoke**: Deploy smoke, blocking line of sight through a space until the end of the battle.
 - **Extinguish Fire**: Extinguish a fire on the tank.
-- (Advanced) **Call an Air Strike**: Call in an air strike. This can only be done once per battle.
+- (Advanced) **Air Strike**: See Air Strike rules below. This can only be done once per battle.
 
 ### Firing the Main Turret Gun
 
-Roll a die to determine if the shot hits. The player must roll equal to or higher than their accuracy score. If the shot hits, roll a die and add the round's strength. If the result is more than the target's armor on the the side where it was hit, the target takes a penetrating hit. Otherwise, it's a glancing hit.
+#### Identify a Target
+
+First, select a target within range, and visible to the turret's current facing.
+
+A target is visible if a line can be drawn from the center of the firing tank's space to the center of the target's, without going through any squares occupied by another tank or terrain or smoke.
+
+See [Firing Diagram](firing.png) for an example.
+
+- Tank **T** can fire at tanks **A** and **B**
+- Tank **C** is outside the turret's facing
+- Tank **D** is outside the gun's range.
+- Tank **E** is obscured by smoke.
+- Tank **F** is obscured by **A**.
+- **T** would inflict damage against **A**'s front facing armor
+- **T** would inflict damage against **B**'s side facing armor
+
+On its turn, **C** could fire at **T**, inflicting damage against its side facing armor. **A** could fire at **T** against its front facing armor.
+
+**B**, **E** and **F** could not fire at **T** due to turret facing, smoke, and **A**, respectively.
+
+#### Roll to hit
+
+The player must roll equal to or higher than their accuracy score to hit. If the shot hits, roll a die and add the round's strength. If the result is more than the target's armor on the the side where it was hit, the target takes a penetrating hit. Otherwise, it's a glancing hit.
 
 AT rounds have a strength of 6, HE rounds have a strength of 4.
 
 #### Inflicting Damage
 
-A glancing hit wounds a crew member on a 4+. When a crew member is wounded, randomly select a living crew member to be wounded. If a wounded crew member is wounded again, they are killed.
+A glancing hit wounds a random living crew member on a 4+. When a crew member is wounded, randomly select a living crew member to be wounded. If a wounded crew member is wounded again, they are killed.
 
-A penetrating hit wounds a random crew member, and reduces the target's hull points by 1. If the target's hull points are reduced to 0, the tank is disabled -- it cannot perform any actions, and remains on the table until the end of the battle.
+A penetrating hit always wounds a random living crew member, and reduces the tank's hull points by 1. If the target's hull points are reduced to 0, the tank is disabled -- it cannot perform any actions, and remains on the table until the end of the battle.
 
-A hit from an HE round can start a **Fire**. Roll a die. On a 5+, the tank is on fire. The tank's crew can use an action to extinguish the fire in their turn. If the fire is not extinguished, the tank loses 1 hull point at the end of each turn until the fire is extinguished.
+Additionally, a glancing or penetrating hit from an HE round can start a **Fire**. Roll a die. On a 5+, the tank is _on fire_. The tank's crew can use an action to extinguish the fire in their turn. If the fire is not extinguished, the tank loses 1 hull point at the end of each turn until the fire is extinguished, or the tank is destroyed.
 
 At the end of every turn a disabled tank is on the table (including the turn it was disabled), roll a die. On a 4+, the ammunition cooks off. The tank is destroyed, and any units within 2 spaces of the tank are hit with an HE round with a strength of 4. The vehicle is replaced with a rubble terrain piece. If the tank's last hull point was lost to **Fire**, the ammunition cooks off immediately.
 
