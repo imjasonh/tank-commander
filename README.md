@@ -89,7 +89,7 @@ A target is visible if a line can be drawn from the center of the firing tank's 
 
 See [Firing Diagram](firing.svg) for an example:
 
-![Firing Diagram](firing.svg)
+<img src="firing.svg" width="50%">
 
 - Tank **T** can fire at tanks **A** and **B**
 - Tank **C** is outside the turret's facing
