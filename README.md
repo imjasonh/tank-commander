@@ -8,10 +8,10 @@ Players take turns activating a unit, performing a number of actions with it, an
 
 This game is still in early development. If you want to give it a try, please give feedback in the form of an issue or pull request to update or clarify rules.
 
-I've 3D printed some models for the game, based on Epic-scale Warhammer 40k Imperial Guard models:
-- Battle Tank _(TODO)_
-- [Armored Personnel Carrier](https://cults3d.com/en/3d-model/game/epic-scale-mechanized-infantry-vehicle)
-- [Infantry Squad](https://cults3d.com/en/3d-model/game/epic-scale-infantry-company)
+I've 3D-printed some models for the game, based on Epic-scale Warhammer 40k Imperial Guard models by [JahnZizka](https://cults3d.com/en/users/JahnZizka/3d-models):
+- [Battle Tank](./models/tank.stl) and [turret](./models/turret.stl)
+- [Armored Personnel Carrier](./models/apc.stl) and [turret](./models/apc-turret.stl)
+- [Infantry Squad](./models/infantry.stl)
 
 ## Building your Tank
 
@@ -87,9 +87,7 @@ First, select a target within range, and visible to the turret's current facing.
 
 A target is visible if a line can be drawn from the center of the firing tank's space to the center of the target's, without going through any squares occupied by another tank or terrain or smoke.
 
-See [Firing Diagram](firing.svg) for an example:
-
-<img src="firing.svg" width="50%">
+See [Firing Diagram](firing.png) for an example.
 
 - Tank **T** can fire at tanks **A** and **B**
 - Tank **C** is outside the turret's facing
@@ -103,7 +101,7 @@ On its turn, **C** could fire at **T**, inflicting damage against its side facin
 
 **B**, **E** and **F** could not fire at **T** due to turret facing, smoke, and **A**, respectively.
 
-#### Roll to hit
+#### Roll to Hit
 
 The player must roll equal to or higher than their accuracy score to hit. If the shot hits, roll a die and add the round's strength. If the result is more than the target's armor on the the side where it was hit, the target takes a penetrating hit. Otherwise, it's a glancing hit.
 
@@ -117,7 +115,7 @@ A penetrating hit always wounds a random living crew member, and reduces the tan
 
 Additionally, a glancing or penetrating hit from an HE round can start a **Fire**. Roll a die. On a 5+, the tank is _on fire_. The tank's crew can use an action to extinguish the fire in their turn. If the fire is not extinguished, the tank loses 1 hull point at the end of each turn until the fire is extinguished, or the tank is destroyed.
 
-At the end of every turn a disabled tank is on the table (including the turn it was disabled), roll a die. On a 4+, the ammunition cooks off. The tank is destroyed, and any units within 2 spaces of the tank are hit with an HE round with a strength of 4. The vehicle is replaced with a rubble terrain piece. If the tank's last hull point was lost to **Fire**, the ammunition cooks off immediately.
+At the end of every turn a disabled tank is on the table (including the turn it was disabled), roll a die. On a 4+, the ammunition cooks off. The tank is destroyed, and any units within 2 spaces of the tank are hit with an HE round with a strength of 4. The vehicle is replaced with a Rubble terrain piece. If the tank's last hull point was lost to **Fire**, the ammunition cooks off immediately.
 
 ### Wounded Crew
 
@@ -134,10 +132,10 @@ If a Lieutenant Commander is replacing a killed crew member, they always perform
 ### Terrain
 
 - **Open Terrain**: No effect on movement or line of sight. This can be a road, or grass. Most of the board is open terrain.
-- **Mud**: You must spend 2 action points to move out of a mud space.
+- **Mud**: You must spend 2 action points to move out of a Mud space.
 - **Rubble**: You must spend 2 action points to move out of a rubble space. This can be a destroyed building, or the remains of an exploded tank.
-- **Forest**: When a tank is in or behind a forest space, enemy accuracy is -1.
-- **Building**: Buildings are impassable terrain. Tanks can fire rounds at buildings to turn them into rubble.
+- **Forest**: When a tank is in or behind a forest space, enemy accuracy is -1. No movement penalty.
+- **Building**: Buildings are impassable terrain. Tanks can fire rounds at buildings to turn them into Rubble.
 - (Advanced) **Hill**: When a tank is immediately behind a hill space, enemy accuracy is -1. When a tank is on a hill space, all hits against it are taken against the rear armor value.
 - (Advanced) **Mines**: Tanks moving over mined spaces take an AT hit with a strength of 6. Roll to see if it penetrates. The mined space is then removed from the board.
 
@@ -203,9 +201,9 @@ Playing to destroy your enemy is only one way to play Tank Commander. Missions c
 - **Breakthrough:** Move your tank to the other side of the board to win. One player is the attacker, the other is the defender.
 - **Destroy Target:** Destroy a specific target on the board. The target can be a building, a tank, or an infantry unit.
 - **Escort:** Move an infantry squad across the battlefield alive.
-- **Beach Landing:**
-- **Urban Warfare:** Navigate tank columns through a maze of streets to take the town's central plaza.
-- **Cross Minefield:** Navigate across a minefield with infantry disabling mines.
+- [**Beach Landing:**](./missions/beach.png): Attacker/defender where attackers begin in water (as Mud), with defenders guarding 3 objectives on the beach.
+- [**Urban Warfare:**](./missions/cityfight.png) Navigate tank columns through a maze of streets to take the town's central plaza.
+- [**Cross Minefield:**](./missions/minefield.png) Navigate across a minefield with infantry disabling mines.
 - **Disable AA Guns:** 3 air strikes available for free, but they fail on 2+ while 3 AA guns are intact. Destroy those guns and call in support.
 
 -----
@@ -213,6 +211,6 @@ Playing to destroy your enemy is only one way to play Tank Commander. Missions c
 #### More Questionable Ideas
 
 - **Weather:** Roll a die at the beginning of each turn. On a 1, a storm hits. All tanks have -1 accuracy, and all infantry have -1 movement.
-- **Night Fighting:** Accurancy is lowered, range is lowered. Tanks can fire flares to light up parts of the battlefield for both sides.
+- **Night Fighting:** Accurancy is lowered by 1, visible range is lowered by 3. Tanks can use an action to fire flares to light up 3 spaces around them for both sides.
 - **Campaign Progressions**: Players can keep track of their tanks and crew from battle to battle. Crew members can gain experience, and tanks can be upgraded with new equipment.
-- **Hover Tanks, Walkers, etc.**: Add new units to the game with different movement and armor values.
+- **Hover Tanks, Walkers, Aliens, etc.**: Add new units to the game with different movement and armor values.
