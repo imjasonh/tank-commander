@@ -27,8 +27,8 @@
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
      inkscape:zoom="0.46161369"
-     inkscape:cx="1240.2145"
-     inkscape:cy="1248.8798"
+     inkscape:cx="1010.5853"
+     inkscape:cy="806.9518"
      inkscape:window-width="1728"
      inkscape:window-height="1051"
      inkscape:window-x="0"
@@ -3769,9 +3769,45 @@ kQXTLKN00gAAAABJRU5ErkJggg==
          x="1106.9067"
          y="1749.3326" />
     </g>
+    <g
+       id="g647-4-7"
+       transform="rotate(180,1373.7778,1501.9474)">
+      <rect
+         style="fill:#b3b3b3"
+         id="rect340-1-8"
+         width="91.908897"
+         height="128.67245"
+         x="1076.866"
+         y="1781.5009" />
+      <rect
+         style="fill:#b3b3b3"
+         id="rect342-8-2"
+         width="32.168114"
+         height="65.868042"
+         x="1106.9067"
+         y="1749.3326" />
+    </g>
+    <g
+       id="g647-4-7-8"
+       transform="rotate(180,1124.6518,1259.3204)">
+      <rect
+         style="fill:#b3b3b3"
+         id="rect340-1-8-1"
+         width="91.908897"
+         height="128.67245"
+         x="1076.866"
+         y="1781.5009" />
+      <rect
+         style="fill:#b3b3b3"
+         id="rect342-8-2-1"
+         width="32.168114"
+         height="65.868042"
+         x="1106.9067"
+         y="1749.3326" />
+    </g>
     <text
        xml:space="preserve"
-       style="font-size:133.333px;white-space:pre;inline-size:41.5984;fill:#ff8080"
+       style="font-size:133.333px;white-space:pre;inline-size:41.5984;display:inline;fill:#ff8080"
        x="594.34424"
        y="1156.5203"
        id="text735" />
@@ -3825,5 +3861,40 @@ kQXTLKN00gAAAABJRU5ErkJggg==
          id="tspan1328"
          x="1089.6556"
          y="1891.1918">T</tspan></text>
+    <path
+       style="fill:#00ffff;stroke-width:2.16631"
+       d="m 1391.2092,1523.46 c -6.4523,-11.0211 -16.4278,-28.3245 -22.1676,-38.4521 -5.7399,-10.1275 -12.2575,-21.0599 -14.4835,-24.2943 l -4.0474,-5.8806 16.3403,-28.4365 c 8.9871,-15.6401 16.3402,-28.8762 16.3402,-29.4134 0,-0.5373 1.042,-2.1543 2.3156,-3.5933 1.2736,-1.4391 5.5084,-8.4655 9.4107,-15.6144 l 7.0951,-12.9979 13.8772,-1.3715 c 7.6324,-0.7543 31.1581,-1.4855 52.2793,-1.6247 37.63,-0.2481 38.4618,-0.1552 41.3713,4.621 1.633,2.6808 8.7176,15.11 15.7435,27.6205 7.0259,12.5104 17.4096,30.545 23.0749,40.0768 5.6654,9.5318 10.3014,18.2941 10.3022,19.4718 9e-4,1.1777 -11.3306,21.8931 -25.1812,46.0342 l -25.1827,43.8928 h -52.6782 -52.6781 z m 61.304,-146.9266 c 0,-5.1704 -0.8469,-6.4971 -3.791,-5.9388 -2.2865,0.4336 -4.0631,3.0759 -4.4765,6.6578 -0.5517,4.7794 0.1884,5.9388 3.791,5.9388 3.5535,0 4.4765,-1.3729 4.4765,-6.6578 z m 14.0931,4.4721 c 2.0809,-3.367 -1.0113,-10.8122 -4.4906,-10.8122 -2.0041,0 -3.1035,2.3022 -3.1035,6.499 0,6.4407 4.6477,9.0805 7.5941,4.3132 z"
+       id="path1532" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;fill:#00ffff"
+       x="1397.2722"
+       y="1473.0933"
+       id="text1588"><tspan
+         sodipodi:role="line"
+         id="tspan1586"
+         x="1397.2722"
+         y="1473.0933"
+         style="font-size:40px;fill:#4d4d4d">smoke</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:106.667px;fill:#000000"
+       x="1587.9078"
+       y="1200.1377"
+       id="text1726"><tspan
+         sodipodi:role="line"
+         id="tspan1724"
+         x="1587.9078"
+         y="1200.1377">E</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:106.667px;fill:#000000"
+       x="1091.822"
+       y="714.88348"
+       id="text1851"><tspan
+         sodipodi:role="line"
+         id="tspan1849"
+         x="1091.822"
+         y="714.88348">F</tspan></text>
   </g>
 </svg>
