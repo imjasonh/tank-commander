@@ -21,7 +21,7 @@ The basic tank starts with the following stats:
 |-------|----------|-------------|---------|
 | 6/6/6 | 4+       | 4           | 5       |
 
-It has a main turret gun with anti-tank (AT) rounds, with a range of 6 spaces.
+It has a main turret gun with anti-tank (AT) rounds, with a range of 5 spaces.
 
 Before the game begins, players can upgrade their tanks, spending up to 10 upgrade points on the following items:
 
@@ -92,16 +92,19 @@ See [Firing Diagram](firing.png) for an example:
 <img src="firing.png" width="50%">
 
 - Tank **T** can fire at tanks **A** and **B**
+  - **T** would inflict damage against **A**'s front facing armor
+  -   **A** could fire at **T** against its front facing armor.
+  - **T** would inflict damage against **B**'s side facing armor
 - Tank **C** is outside the turret's facing
+  - On its turn, **C** could fire at **T**, inflicting damage against its side facing armor.
 - Tank **D** is outside the gun's range.
 - Tank **E** is obscured by smoke.
 - Tank **F** is obscured by **A**.
-- **T** would inflict damage against **A**'s front facing armor
-- **T** would inflict damage against **B**'s side facing armor
-
-On its turn, **C** could fire at **T**, inflicting damage against its side facing armor. **A** could fire at **T** against its front facing armor.
 
 **B**, **E** and **F** could not fire at **T** due to turret facing, smoke, and **A**, respectively.
+
+> [!NOTE]
+> In this example, **T** has the Extended Barrel upgrade, and can fire at a range of 6 spaces.
 
 #### Roll to Hit
 
