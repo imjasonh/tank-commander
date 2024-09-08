@@ -216,3 +216,8 @@ Playing to destroy your enemy is only one way to play Tank Commander. Missions c
 - **Night Fighting:** Accurancy is lowered by 1, visible range is lowered by 3. Tanks can use an action to fire flares to light up 3 spaces around them for both sides.
 - **Campaign Progressions**: Players can keep track of their tanks and crew from battle to battle. Crew members can gain experience, and tanks can be upgraded with new equipment.
 - **Hover Tanks, Walkers, Aliens, etc.**: Add new units to the game with different movement and armor values.
+
+#### Credits
+
+- [JahnZizka](https://cults3d.com/en/users/JahnZizka/3d-models) for the Epic-scale Warhammer 40k Imperial Guard models.
+- [Hexgrid](https://hamhambone.github.io/hexgrid/) for the hex grid map.
