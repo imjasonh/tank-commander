@@ -87,7 +87,9 @@ First, select a target within range, and visible to the turret's current facing.
 
 A target is visible if a line can be drawn from the center of the firing tank's space to the center of the target's, without going through any squares occupied by another tank or terrain or smoke.
 
-See [Firing Diagram](firing.svg) for an example.
+See [Firing Diagram](firing.svg) for an example:
+
+![Firing Diagram](firing.svg)
 
 - Tank **T** can fire at tanks **A** and **B**
 - Tank **C** is outside the turret's facing
