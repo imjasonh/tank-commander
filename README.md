@@ -28,7 +28,10 @@ Before the game begins, players can upgrade their tanks, spending up to 10 upgra
 - **Armor (1 point per facing, max 3 per facing)**: Increases the armor of the tank by 1 point.
   - Side armor cannot exceed front armor.
   - Rear armor cannot exceed side armor.
-- **Engine Upgrade** (1 upgrade point): Increases the movement range of the tank by 1.
+  - **Heavy Armor:** If any side has all 3 additional points, decrease the tank's max movement by 1 per turn.
+  - **Light Armor:** If no additional **Armor** points are purchased, increase the tank's max movement by 1 per turn.
+- **Engine Upgrade** (1 upgrade point): Increases the max movement of the tank by 1 per turn.
+  - An engine upgrade can counteract the negative effect of Heavy Armor, and stack with the effects of Light Armor.
 - **Extended Barrel** (1 upgrade point): Increases the range of the main gun by 1.
 - **Enhanced Optics** (1 upgrade point): Increases the accuracy of the main gun by 1.
 - **High-Explosive (HE) Rounds** (1 upgrade point): Allows HE rounds to be loaded.
@@ -184,7 +187,7 @@ APCs have 4 upgrade points to spend at the beginning of the battle:
 
 APCs can take the following actions when activated:
 
-- **Move**: Move the APC forward one space, up to max 3 spaces per turn.
+- **Move**: Move the APC forward one space, up to max 4 spaces per turn.
 - **Turn**: Rotate to the left or right 60 degrees.
 - **Fire Anti-Infantry Weapon**: Fire the anti-infantry weapon at a target within range.
 - **Deploy Smoke**: Deploy smoke, blocking line of sight through a space up to 2 spaces away until the end of the battle.
